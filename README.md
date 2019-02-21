@@ -1,2 +1,2 @@
 # laraveltest
-Oh lawd still testing
+Still

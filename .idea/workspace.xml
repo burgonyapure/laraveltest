@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4af463e5-b789-4509-9112-8c70f1e4f3fa" name="Default Changelist" comment="testing" />
+    <list default="true" id="4af463e5-b789-4509-9112-8c70f1e4f3fa" name="Default Changelist" comment="testing">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="15">
-                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+                <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -246,7 +248,7 @@
       <workItem from="1550784428632" duration="1306000" />
       <workItem from="1550786022313" duration="183000" />
       <workItem from="1550786298099" duration="126000" />
-      <workItem from="1550790561633" duration="1110000" />
+      <workItem from="1550790561633" duration="1257000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <created>1550791476573</created>
@@ -259,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21868000" />
+    <option name="totallyTimeSpent" value="22015000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,7 +548,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="15">
-            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
