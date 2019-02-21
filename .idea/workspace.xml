@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4af463e5-b789-4509-9112-8c70f1e4f3fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-    </list>
+    <list default="true" id="4af463e5-b789-4509-9112-8c70f1e4f3fa" name="Default Changelist" comment="testing" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,12 +246,20 @@
       <workItem from="1550784428632" duration="1306000" />
       <workItem from="1550786022313" duration="183000" />
       <workItem from="1550786298099" duration="126000" />
-      <workItem from="1550790561633" duration="853000" />
+      <workItem from="1550790561633" duration="1110000" />
     </task>
+    <task id="LOCAL-00001" summary="testing">
+      <created>1550791476573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550791476573</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21611000" />
+    <option name="totallyTimeSpent" value="21868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -269,7 +272,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1600" height="851" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15572716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -296,6 +298,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/routes/channels.php">
