@@ -14,7 +14,14 @@
                         </div>
                     @endif
                     @if($user = Auth::user())
-                            <div>You are logged in with the following credentials: <strong><ul class="list-group"><li class="list-group-item border-0">Name: {{Auth::user()->name}}</li><li class="list-group-item border-0">E-mail: {{Auth::user()->email}}</li></ul></strong></div>
+                            <div>You are logged in with the following credentials:
+                            <strong>
+                                <ul class="list-group">
+                                    <li class="list-group-item border-0">Name: {{Auth::user()->name}}</li>
+                                    <li class="list-group-item border-0">E-mail: {{Auth::user()->email}}</li>
+                                </ul>
+                            </strong>
+                            </div>
                     @elseif($user = Auth::guest())
                         <div>You are <strong>not</strong> logged in!</div>
                     @else
