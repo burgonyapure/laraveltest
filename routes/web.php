@@ -23,6 +23,10 @@ Route::get('/messages','MessagesController@getMessages');
 
 Route::get('/admin','AdminController@index');
 
+Route::get('/pacman','PagesController@getPacman');
+
+Route::get('/2048','PagesController@get2048');
+
 Auth::routes(['verify' => true]);
 
 Route::get('/home', 'HomeController@index')->name('home');

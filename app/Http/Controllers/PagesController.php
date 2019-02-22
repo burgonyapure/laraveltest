@@ -17,4 +17,12 @@ class PagesController extends Controller
     public function getContact(){
         return view('contact');
     }
+
+    public function getPacman(){
+        return view('pacman');
+    }
+
+    public function get2048(){
+        return view('2048-generator/game.php');
+    }
 }
