@@ -5,7 +5,13 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{Auth::user()->name}}'s dashboard</div>
+                <div class="card-header">
+                    @if ($user = Auth::user())
+                        {{Auth::user()->name}}'s dashboard.
+                    @else
+                        Users dashboard
+                    @endif
+                </div>
 
                 <div class="card-body">
                     @if (session('status'))
