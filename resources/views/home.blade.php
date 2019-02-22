@@ -9,7 +9,8 @@
                     @if ($user = Auth::user())
                         {{Auth::user()->name}}'s dashboard.
                     @else
-                        Users dashboard
+                        <p>This is the Users dashboard.</p>
+                        <p>More info will be shown if you log in.</p>
                     @endif
                 </div>
 
@@ -25,6 +26,11 @@
                                 <ul class="list-group">
                                     <li class="list-group-item border-0">Name: {{Auth::user()->name}}</li>
                                     <li class="list-group-item border-0">E-mail: {{Auth::user()->email}}</li>
+                                    @if(Auth::user()->email_verified_at === null)
+                                        <li class="list-group-item border-0">Your E-mail is not verified. Verify request: <a href="{{ url('newemailreq') }}">here</a> </li>
+                                    @elseif(Auth::user()->email_verified_at != null)
+                                        <li class="list-group-item border-0">Your Email has been verified.</li>
+                                    @endif
                                 </ul>
                             </strong>
                             </div>
