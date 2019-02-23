@@ -34,7 +34,25 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
+                        @if($user = Auth::user())
+                            <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                               Játékok <span class="caret"></span>
+                            </a>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="{{ url('/pacman') }}">
+                                       Pacman
+                                    </a>
+                                    <a class="dropdown-item" href="{{ url('/2048') }}">
+                                        2048
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="{{url('/about')}}">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{url('/contact')}}">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{url('/messages')}}">Messages</a></li>
 
+                        @endif
                     </ul>
 
                     <!-- Right Side Of Navbar -->

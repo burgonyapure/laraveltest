@@ -23,6 +23,6 @@ class PagesController extends Controller
     }
 
     public function get2048(){
-        return view('2048-generator/game.php');
+        return view('2048');
     }
 }
