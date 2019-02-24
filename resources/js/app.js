@@ -6,7 +6,7 @@
  */
 
 require('./bootstrap');
-
+require('./2048');
 window.Vue = require('vue');
 
 /**

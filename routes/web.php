@@ -34,3 +34,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('newemailreq', function () {
     // Only verified users may enter...
 })->middleware('verified');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('admin/users', 'UserController@index');
